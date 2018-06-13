@@ -6,7 +6,7 @@ class App < Roda
 
   route do |r|
     r.root do
-      view "home"
+      view 'index'
     end
   end
 end
