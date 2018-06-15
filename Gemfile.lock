@@ -178,6 +178,7 @@ DEPENDENCIES
   hyper-component!
   hyper-react!
   hyperloop-config!
+  minitest
   opal!
   opal-activesupport!
   opal-jquery!

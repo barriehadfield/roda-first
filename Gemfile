@@ -19,6 +19,7 @@ gem 'opal-jquery', github: 'janbiedermann/opal-jquery', branch: 'why_to_n'
 gem 'opal-activesupport', github: 'opal/opal-activesupport', branch: 'master'
 gem 'activerecord', '~> 5.2.0'
 gem 'actionview'
+require 'action_view'
 
 ## Hyperloop
 gem 'hyper-react', github: 'janbiedermann/hyper-react', branch: 'pinata'
