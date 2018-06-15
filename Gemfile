@@ -17,6 +17,8 @@ gem 'opal', github: 'janbiedermann/opal', branch: 'es6_import_export'
 gem 'opal-webpack-compile-server', '0.1.7', require: false
 gem 'opal-jquery', github: 'janbiedermann/opal-jquery', branch: 'why_to_n'
 gem 'opal-activesupport', github: 'opal/opal-activesupport', branch: 'master'
+gem 'activerecord', '~> 5.2.0'
+gem 'actionview'
 
 ## Hyperloop
 gem 'hyper-react', github: 'janbiedermann/hyper-react', branch: 'pinata'

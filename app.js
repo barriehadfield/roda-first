@@ -37,7 +37,7 @@ global.$ = jQuery;
 
 // all the hyperloop requires go in this file
 // it needs to be imported first
-import init_app from './hyperloop/hyperloop_webpack_loader.rb';
+import init_app from './app/hyperloop/hyperloop_webpack_loader.rb';
 // then it needs to initalized, this will register the available opal ruby modules
 init_app();
 // then it needs to be loaded, this will actually run the code and start the application
